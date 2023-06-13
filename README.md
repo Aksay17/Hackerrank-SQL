@@ -7,7 +7,6 @@ This repository contains my solutions to SQL questions on HackerRank. The soluti
 ## Problem Domains
 
 - Basic Select
-- Advanced Select
 - Aggregation
 - Join
 - Subquery

@@ -3,6 +3,7 @@ If you are writing each domain solution in one `.sql` file, you can modify the R
 # HackerRank SQL Solutions
 
 This repository contains my solutions to SQL questions on HackerRank. The solutions are organized by problem domains corresponding to the different categories on HackerRank.
+The purpose of creating this repositiory is to revise my SQL basics whenever needed :)
 
 ## Problem Domains
 

@@ -7,7 +7,7 @@ The purpose of creating this repositiory is to revise my SQL basics whenever nee
 
 ## Problem Domains
 
-- Basic Select
+- Select
 - Aggregation
 - Join
 - Subquery

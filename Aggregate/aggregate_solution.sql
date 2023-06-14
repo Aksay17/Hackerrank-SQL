@@ -42,3 +42,7 @@ select round(abs(min(lat_n) - max(lat_n)) + abs(min(long_w) - max(long_w)),4) fr
 -- Query the Euclidean Distance between points p1 and p2 and format your answer to display 4 decimal digits.
 -- d = √[(x2 – x1)^2 + (y2 – y1)^2]
 select round(sqrt(pow(min(lat_n) - max(lat_n),2) + pow(min(long_w) - max(long_w),2)),4) from station; 
+
+-- A median is defined as a number separating the higher half of a data set from the lower half. 
+-- Query the median of the Northern Latitudes (LAT_N) from STATION and round your answer to  decimal places.
+Select round(S.LAT_N,4) mediam from station S where (select count(Lat_N) from station where Lat_N < S.LAT_N ) = (select count(Lat_N) from station where Lat_N > S.LAT_N);

@@ -22,18 +22,10 @@ The repository is structured as follows:
 ```
 |-- Select
 |   |-- select_solution.sql
-|-- Aggregation
-|   |-- aggregation_solution.sql
 |-- Join
 |   |-- join_solution.sql
-|-- Subquery
-|   |-- subquery_solution.sql
-|-- String
-|   |-- string_solution.sql
-|-- Advanced
-|   |-- advanced_solution.sql
-|-- Alternative Queries
-|   |-- alternative_queries_solution.sql
+|-- Aggregation
+|   |-- aggregation_solution.sql
 |-- README.md
 ```
 
